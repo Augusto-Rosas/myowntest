@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criminal Science</title>
+</head>
+<body>
+<!-- Introduction -->
+    <div>
+        <h1>Criminal Science (Forensic Science)</h1>
+        <p>
+        As mentioned in the <a href="https://www.justice.gov/archives/dag/forensic-science" target="_blank"> <span>U.S. Department of justice</span></a>, forensic science is the application of scientific principles and techniques to matters of criminal justice. It encompasses a wide range of disciplines, including biology, chemistry, physics, and engineering, to analyze evidence collected from crime scenes. 
+        </p>
+    </div>
+<!-- Small view for the main Areas and Uses, it will be more detailed on the page2 called: detailed-main-areas-and-uses-of-forensic-science -->
+    <div>
+        <h2>Main Areas and Uses of Forensic Science</h2>
+        <p>
+            Here are some of the main areas and uses of forensic science:
+        </p>   
+        <ul>
+            <li>Crime scene investigation</li>
+            <li>DNA analysis</li>
+            <li>Fingerprint identification</li>
+            <li>Forensic toxicology</li>
+            <li>Digital forensics</li>
+            <li>Ballistics and firearm analysis</li>
+            <li>Forensic anthropology</li>
+            <li>Document examination</li>
+        </ul>
+        <img src="img/1000_F_485841625_i5eDGAtjdK4H9epa2HzNr6KSdRXr7A73.jpg" alt="Forensic Science illustration" width="600" height="300" />
+        <p>For more details, check the extended information here:</p>
+        <a href="detailed-main-areas-and-uses-of-forensic-science.html">Go to Detailed Main Areas and Uses of Forensic Science</a>
+    </div>
+    <!-- Form simulating an evidence intake, includes 2 fieldsets and different types of inputs as required by the assignment -->
+    <br>
+    <div>
+        <h3><span>Forensic Evidence Intake Form</span></h3>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="anonymous">Submit Anonymously:</label>
+                <input type="checkbox" id="anonymous" name="anonymous" /><br /><br />
+
+                <label for="fullname">Full Name:</label><br />
+                <input type="text" id="fullname" name="fullname" /><br /><br />
+
+                <label for="email">Email Address:</label><br />
+                <input type="email" id="email" name="email" /><br /><br />
+            </fieldset>
+            <fieldset>
+                <legend>Case Details</legend>
+                <label for="case-type">Type of Case:</label><br>
+                <select id="case-type" name="case-type">
+                    <option value="homicide">Homicide</option>
+                    <option value="fraud">Fraud</option>
+                    <option value="theft">Theft</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <label for="urgent">Is this case urgent?</label><br>
+                <input type="checkbox" id="urgent" name="urgent"><br>
+                <label for="evidence-file">Upload Evidence File:</label><br>
+                <input type="file" id="evidence-file" name="evidence-file" /><br>
+            </fieldset>
+            <br>
+            <button type="submit">Submit Case</button>
+        </form>
+    </div>
+</body>
+</html>
